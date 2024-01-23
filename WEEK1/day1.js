@@ -27,11 +27,13 @@ name='ump'
  * You can reassign a variable
  * var name='Cheese'
  * name'Tim'
+ * Globally scoped
  * 
  * @let
  * You cant redeclare a variable
  * let name='Tim'
  * let name= 'Kipu'
+ * either LOCAL OR GLOBAL
  * 
  * @const
  * You cannot redeclare a variable
@@ -40,6 +42,7 @@ name='ump'
  * You cant reassign a variable
  * const name= 'Jon'
  * name='Hefty'
+ * either LOCAL OR GLOBAL
  */
 
 
