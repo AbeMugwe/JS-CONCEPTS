@@ -32,7 +32,7 @@
 
 // }
 
-// //FUNCTIONS
+//FUNCTIONS
 // function consoleHello(){
 //     console.log('Whats good')
 // }
@@ -52,19 +52,17 @@
  */
 
 
-let n=prompt('Enter Number')
+let n=parseInt(prompt('Enter Number'))
 let sum=0
 for (let i=1; i<n; i++) {
     let rem=i%3
     let rem2=i%5
     if(rem===0 || rem2===0){
         sum=sum+ i
-        console.log(sum)
-    } else{
-        sum=sum
         
     }
 }
+console.log( "Sum:", sum )
 
 
 
