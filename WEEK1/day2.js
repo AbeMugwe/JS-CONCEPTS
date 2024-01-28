@@ -33,11 +33,11 @@
 // }
 
 //FUNCTIONS
-// function consoleHello(){
-//     console.log('Whats good')
-// }
+function consoleHello(){
+    console.log('Whats good')
+}
 
-// consoleHello()
+consoleHello()
 
 
 
