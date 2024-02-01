@@ -39,8 +39,29 @@ function consoleHello(){
 
 consoleHello()
 
+//FUNCTIONEXPRESSION
+const add=function(a,b){
+    return a+b
+}
+console.log(add(10,20))
+
+//ARROW FUNCTION
+const add2=(a,b)=>{
+    return a+b
+}
+console.log(add2(3,5))
+
+setTimeout(()=>{
+    console.log('Hello')
+},3000)
+console.log('Abe')
 
 
+
+const name='kj'
+const school='pink ACADEMY'
+const sentence= `My name is ${name} currently at ${school}`
+console.log(sentence)
 
 
 
@@ -52,17 +73,17 @@ consoleHello()
  */
 
 
-let n=parseInt(prompt('Enter Number'))
-let sum=0
-for (let i=1; i<n; i++) {
-    let rem=i%3
-    let rem2=i%5
-    if(rem===0 || rem2===0){
-        sum=sum+ i
+// let n=parseInt(prompt('Enter Number'))
+// let sum=0
+// for (let i=1; i<n; i++) {
+//     let rem=i%3
+//     let rem2=i%5
+//     if(rem===0 || rem2===0){
+//         sum=sum+ i
         
-    }
-}
-console.log( "Sum:", sum )
+//     }
+// }
+// console.log( "Sum:", sum )
 
 
 
