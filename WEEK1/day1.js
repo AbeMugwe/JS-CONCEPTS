@@ -77,6 +77,15 @@ name='ump'
 //Expenses
 //Cost of goods sold
 
+/**
+ * @NAMING RULES
+ * Pascal Case -> ThisIsPascalCase
+ * CamelCase -> thisIsCamelCase
+ * snake_case -> this_is_snake_case
+ * kebab_case -> this-is-kebab-case
+ */
+
+
 const sockcost= 50
 const bagcost= 50
 const batchcost= (sockcost * 3)
